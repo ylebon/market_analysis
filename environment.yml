@@ -1,0 +1,8 @@
+name: env3.9
+channels:
+   - conda-forge
+dependencies:
+   - python=3.9
+   - pycaret[full]
+   - numerapi
+   - numpy=1.20
