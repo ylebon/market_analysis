@@ -1,11 +1,11 @@
-name: env3.9
+name: env3.9-example
 channels:
    - conda-forge
 dependencies:
    - python=3.9
+   - pip
    - pycaret[full]
    - numpy=1.20
-   - pip
+   - jupyterlab
    - pip:
      - numerapi
-     
